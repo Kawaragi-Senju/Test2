@@ -7,7 +7,7 @@ public class PhoneNumber implements Pnone{
     }
     @Override
     public void checkNumber(String s){
-       String pattern = "\\D?+[\\d{10}]";
+       String pattern = "^((8|\\+7)[\\- ]?)?(\\(?\\d{3}\\)?[\\- ]?)?[\\d\\- ]{7,10}$";
        if(s.matches(pattern)){
            System.out.println("phone number correct");
        }else{
@@ -15,3 +15,4 @@ public class PhoneNumber implements Pnone{
        }
     }
 }
+//[?]\D+\d{10}
