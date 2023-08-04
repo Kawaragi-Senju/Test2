@@ -7,7 +7,6 @@
     <list default="true" id="ca469cb6-284e-4d6c-984e-2ef921131bb3" name="Changes" comment="Commit.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AnonClassDz/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnonClassDz/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Anoncalss/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Anoncalss/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +121,8 @@
       <workItem from="1690315811419" duration="1349000" />
       <workItem from="1690319253045" duration="2503000" />
       <workItem from="1690526267133" duration="5292000" />
-      <workItem from="1691170370773" duration="5175000" />
+      <workItem from="1691170370773" duration="5207000" />
+      <workItem from="1691186811649" duration="664000" />
     </task>
     <task id="LOCAL-00001" summary="Commit.">
       <created>1690042258022</created>
@@ -152,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691173498101</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commit.">
+      <created>1691181746678</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691181746678</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
