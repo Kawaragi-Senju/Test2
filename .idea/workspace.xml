@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca469cb6-284e-4d6c-984e-2ef921131bb3" name="Changes" comment="Commit.">
-      <change afterPath="$PROJECT_DIR$/src/HashMap/Checker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnonClassDz/Check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnonClassDz/Mail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnonClassDz/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnonClassDz/Password.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnonClassDz/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Anoncalss/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HashMap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMap/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HashMap/PhoneEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMap/PhoneEmail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HashMap/PhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMap/PhoneNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMap/PhoneEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMap/Mail.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +49,42 @@
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="AnonClassDz" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AnonClassDz.Main">
+    <configuration name="AnonClassDz.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnonClassDz.Main" />
+      <module name="Test2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AnonClassDz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Anoncalss.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Anoncalss.Main" />
+      <module name="Test2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Anoncalss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HashSet" />
       <module name="Test2" />
@@ -71,6 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnonClassDz.Main" />
+        <item itemvalue="Application.Anoncalss.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.HashSet" />
       </list>
@@ -90,6 +128,7 @@
       <workItem from="1690315811419" duration="1349000" />
       <workItem from="1690319253045" duration="2503000" />
       <workItem from="1690526267133" duration="5292000" />
+      <workItem from="1691170370773" duration="2632000" />
     </task>
     <task id="LOCAL-00001" summary="Commit.">
       <created>1690042258022</created>
