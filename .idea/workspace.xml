@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca469cb6-284e-4d6c-984e-2ef921131bb3" name="Changes" comment="Commit.">
+      <change afterPath="$PROJECT_DIR$/src/HashMap/Checker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HashMap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMap/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HashMap/PhoneEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMap/PhoneEmail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HashMap/PhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMap/PhoneNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HashMap/Pnone.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
