@@ -19,6 +19,7 @@ public class Main {
         hash.put("mail", vvod1);
         hash.put("phone", vvod1);
         hash.put("password", vvod1);
+
         switch (vvod){
             case "mail":
                 Function<String, String> mail = a ->{return String.valueOf(hash.get("mail").matches("[a-z]\\w+@[a-z]+\\.[a-z]+"));
