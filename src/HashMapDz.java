@@ -22,7 +22,6 @@ public class HashMapDz {
                 }
                 return schet;
             }
-            //Сделать через рекурсию
         };
         Function<Integer, Double> exp = new Function<Integer, Double>() {
             @Override
@@ -36,9 +35,19 @@ public class HashMapDz {
                 return Math.sqrt(integer);
             }
         };
+        Function<Integer, Integer> factrec = new Function<Integer, Integer>() {
+            @Override
+            public Integer apply(Integer s) {
+              if(s == 1){
+                  return 1;
+              }
+              return s * apply(s - 1);
+            }
+        };
         map.put("fact", String.valueOf(fact.apply(integer)));
         map.put("exp", String.valueOf(exp.apply(integer)));
         map.put("sqrt", String.valueOf(sqrt.apply(integer)));
+        map.put("factrec", String.valueOf(factrec.apply(integer)));
         System.out.println(map.get(key));
     }
 

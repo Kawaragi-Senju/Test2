@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca469cb6-284e-4d6c-984e-2ef921131bb3" name="Changes" comment="Commit.">
-      <change afterPath="$PROJECT_DIR$/src/Cars/BMW.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cars/Cars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cars/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cars/Toyota.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMapDz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMapDz.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +51,14 @@
       <recent name="AnonClassDz" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Cars.Main">
+  <component name="RunManager" selected="Application.HashMapDz">
+    <configuration name="Andrey_Shunin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Andrey_Shunin" />
+      <module name="Test2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AnonClassDz.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnonClassDz.Main" />
       <module name="Test2" />
@@ -94,33 +98,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashSet" />
+    <configuration name="HashMapDz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashMapDz" />
       <module name="Test2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashMap.Main" />
-      <module name="Test2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HashMap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashMapDz" />
+        <item itemvalue="Application.Andrey_Shunin" />
         <item itemvalue="Application.Cars.Main" />
         <item itemvalue="Application.AnonClassDz.Main" />
         <item itemvalue="Application.Anoncalss.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.HashSet" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +131,10 @@
       <workItem from="1690526267133" duration="5292000" />
       <workItem from="1691170370773" duration="5207000" />
       <workItem from="1691186811649" duration="748000" />
-      <workItem from="1691225956332" duration="1586000" />
+      <workItem from="1691225956332" duration="1811000" />
+      <workItem from="1691569109097" duration="1747000" />
+      <workItem from="1691672241239" duration="6243000" />
+      <workItem from="1691831022067" duration="1111000" />
     </task>
     <task id="LOCAL-00001" summary="Commit.">
       <created>1690042258022</created>
@@ -191,7 +185,21 @@
       <option name="project" value="LOCAL" />
       <updated>1691225987907</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Commit.">
+      <created>1691230880677</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691230880677</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Commit.">
+      <created>1691831040606</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1691831040606</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
