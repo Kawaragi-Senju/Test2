@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca469cb6-284e-4d6c-984e-2ef921131bb3" name="Changes" comment="Commit.">
-      <change afterPath="$PROJECT_DIR$/src/PrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MapStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrimeNumbers/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stud.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrimeNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +46,8 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -51,27 +55,7 @@
       <recent name="AnonClassDz" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrimeNumber">
-    <configuration name="Andrey_Shunin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Andrey_Shunin" />
-      <module name="Test2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnonClassDz.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnonClassDz.Main" />
-      <module name="Test2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AnonClassDz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MapStream">
     <configuration name="Cars.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Cars.Main" />
       <module name="Test2" />
@@ -92,6 +76,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrimeNumbers.Main" />
+      <module name="Test2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PrimeNumbers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MapStream" />
+      <module name="Test2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PrimeNumber" />
       <module name="Test2" />
@@ -101,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapStream" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.PrimeNumber" />
         <item itemvalue="Application.HashMapDz" />
-        <item itemvalue="Application.Andrey_Shunin" />
         <item itemvalue="Application.Cars.Main" />
-        <item itemvalue="Application.AnonClassDz.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +133,13 @@
       <workItem from="1691569109097" duration="1747000" />
       <workItem from="1691672241239" duration="6243000" />
       <workItem from="1691831022067" duration="1111000" />
-      <workItem from="1692193500384" duration="3370000" />
+      <workItem from="1692193500384" duration="4601000" />
+      <workItem from="1692292498677" duration="66000" />
+      <workItem from="1692292574792" duration="9000" />
+      <workItem from="1692292810555" duration="3000" />
+      <workItem from="1692519967713" duration="192000" />
+      <workItem from="1692525905708" duration="2975000" />
+      <workItem from="1693040619582" duration="3325000" />
     </task>
     <task id="LOCAL-00001" summary="Commit.">
       <created>1690042258022</created>
@@ -201,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692193543906</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Commit.">
+      <created>1692199181716</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1692199181716</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
