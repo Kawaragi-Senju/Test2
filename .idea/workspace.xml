@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca469cb6-284e-4d6c-984e-2ef921131bb3" name="Changes" comment="Commit.">
-      <change afterPath="$PROJECT_DIR$/src/Dzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/MyThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MapStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapStream.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,20 +53,7 @@
       <recent name="AnonClassDz" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MapStream">
-    <configuration name="Cars.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Cars.Main" />
-      <module name="Test2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Cars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.thread.Main">
     <configuration name="HashMapDz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HashMapDz" />
       <module name="Test2" />
@@ -101,13 +88,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="thread.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.Main" />
+      <module name="Test2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.thread.Main" />
         <item itemvalue="Application.MapStream" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.PrimeNumber" />
         <item itemvalue="Application.HashMapDz" />
-        <item itemvalue="Application.Cars.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +138,11 @@
       <workItem from="1692519967713" duration="192000" />
       <workItem from="1692525905708" duration="2975000" />
       <workItem from="1693040619582" duration="4081000" />
-      <workItem from="1693146314034" duration="4941000" />
+      <workItem from="1693146314034" duration="4950000" />
+      <workItem from="1693338877432" duration="57000" />
+      <workItem from="1693405491084" duration="120000" />
+      <workItem from="1693405625216" duration="11000" />
+      <workItem from="1694338426285" duration="2253000" />
     </task>
     <task id="LOCAL-00001" summary="Commit.">
       <created>1690042258022</created>
@@ -224,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693044391749</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Commit.">
+      <created>1693152289315</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1693152289315</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
