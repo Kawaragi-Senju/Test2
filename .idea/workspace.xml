@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca469cb6-284e-4d6c-984e-2ef921131bb3" name="Changes" comment="Commit.">
-      <change afterPath="$PROJECT_DIR$/src/thread/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threaddz/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threaddz/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threaddz/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threaddz/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threaddz/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threaddz/Reader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,14 +55,7 @@
       <recent name="AnonClassDz" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.thread.Main">
-    <configuration name="HashMapDz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashMapDz" />
-      <module name="Test2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PrimeNumbers.Main" />
       <module name="Test2" />
@@ -88,6 +83,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="Test2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="thread.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.Main" />
       <module name="Test2" />
@@ -103,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.thread.Main" />
         <item itemvalue="Application.MapStream" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.PrimeNumber" />
-        <item itemvalue="Application.HashMapDz" />
       </list>
     </recent_temporary>
   </component>
