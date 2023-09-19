@@ -2,14 +2,15 @@ package threaddz;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public class Library {
-    static List<String> books = new ArrayList<>();
-    public Library getBook(List<Library> book){
-        Random random = new Random();
-        return book.get(random.nextInt(5));
-    }
+    final static List<String> books = new ArrayList<>();
+    static final String[] bookNames = {"LOTR1", "LOTR2", "LOTR3", "LOTR4", "LOTR5"};
+//    public Library getBook(List<String> book){
+//        synchronized (books){
+//            //return book.get();
+//        }
+//    }
 
     public void putBoolBack(List<Library> book){
         book.remove(book);
