@@ -7,11 +7,7 @@ public class Main {
         String book3 = "LOTR3";
         String book4 = "LOTR4";
         String book5 = "LOTR5";
-        Library.books.add(book1);
-        Library.books.add(book2);
-        Library.books.add(book3);
-        Library.books.add(book4);
-        Library.books.add(book5);
+
 
     }
 }

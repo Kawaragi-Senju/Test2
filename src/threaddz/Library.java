@@ -1,19 +1,25 @@
 package threaddz;
 
-import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class Library {
-    final static List<String> books = new ArrayList<>();
-    static final String[] bookNames = {"LOTR1", "LOTR2", "LOTR3", "LOTR4", "LOTR5"};
-//    public Library getBook(List<String> book){
-//        synchronized (books){
-//            //return book.get();
-//        }
-//    }
+    final static Map<String, Book> BOOK_MAP = new HashMap<>();
+    private final Map<String, Book> REMOVED_BOOKS = new HashMap<>();
+    static final String[] Names = {"LOTR1", "LOTR2", "LOTR3", "LOTR4", "LOTR5"};
+    public Book getBook(String name){
+        synchronized (BOOK_MAP){
+            Book book = BOOK_MAP.remove(name);
+            REMOVED_BOOKS.put(name, book);
+            return book;
+        }
+    }
 
     public void putBoolBack(List<Library> book){
-        book.remove(book);
+        synchronized (BOOK_MAP) {
+
+        }
     }
 }
 //    Создать класс Библиотека, хранящий  список книг (книга – это строка с названием).
