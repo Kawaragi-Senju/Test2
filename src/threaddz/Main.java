@@ -7,8 +7,11 @@ public class Main {
         String book3 = "LOTR3";
         String book4 = "LOTR4";
         String book5 = "LOTR5";
+        Reader reader = new Reader(Book.getName());
+        Reader reader1 = new Reader(Book.getName());
+        Runnable task = () -> {
 
-
+        }
     }
 }
 //    Создать класс Библиотека, хранящий  список книг (книга – это строка с названием).

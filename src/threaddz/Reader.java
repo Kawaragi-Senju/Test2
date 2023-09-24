@@ -1,15 +1,12 @@
 package threaddz;
 
-public class Reader extends Thread{
-    Library book;
-    public Reader(Library book){
+public class Reader{
+    Book book;
+    public Reader(String book){
         this.book = book;
     }
 
-    @Override
-    public void run(){
 
-    }
 }
 //    Создать класс Библиотека, хранящий  список книг (книга – это строка с названием).
 //    Создать класс Читатель, получающий в конструкторе экземпляр библиотеки.

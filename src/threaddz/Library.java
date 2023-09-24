@@ -1,13 +1,14 @@
 package threaddz;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
+
 
 public class Library {
     final static Map<String, Book> BOOK_MAP = new HashMap<>();
+    public static final String[] NAMES = {"LOTR1", "LOTR2", "LOTR3", "LOTR4", "LOTR5"};
+
     private final Map<String, Book> REMOVED_BOOKS = new HashMap<>();
-    static final String[] Names = {"LOTR1", "LOTR2", "LOTR3", "LOTR4", "LOTR5"};
     public Book getBook(String name){
         synchronized (BOOK_MAP){
             Book book = BOOK_MAP.remove(name);
@@ -16,11 +17,16 @@ public class Library {
         }
     }
 
-    public void putBoolBack(List<Library> book){
+    public void putBookBack(String name){
         synchronized (BOOK_MAP) {
-
+            if(!BOOK_MAP.get(name).equals(REMOVED_BOOKS.get(name))){
+                Book book = REMOVED_BOOKS.remove(name);
+                BOOK_MAP.put(name, book);
+            }
         }
     }
+
+
 }
 //    Создать класс Библиотека, хранящий  список книг (книга – это строка с названием).
 //    Создать класс Читатель, получающий в конструкторе экземпляр библиотеки.
