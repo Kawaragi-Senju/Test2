@@ -2,16 +2,22 @@ package threaddz;
 
 public class Main {
     public static void main(String[] args) {
+        Library l = new Library();
         String book1 = "LOTR1";
         String book2 = "LOTR2";
         String book3 = "LOTR3";
         String book4 = "LOTR4";
         String book5 = "LOTR5";
-        Reader reader = new Reader(Book.getName());
-        Reader reader1 = new Reader(Book.getName());
-        Runnable task = () -> {
-
-        }
+        Thread reader = new Reader(l);
+        Thread reader1 = new Reader(l);
+        Thread reader2 = new Reader(l);
+        Thread reader3 = new Reader(l);
+        Thread reader4 = new Reader(l);
+        reader4.start();
+        reader3.start();
+        reader2.start();
+        reader1.start();
+        reader.start();
     }
 }
 //    Создать класс Библиотека, хранящий  список книг (книга – это строка с названием).

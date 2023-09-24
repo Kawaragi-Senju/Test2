@@ -1,12 +1,15 @@
 package threaddz;
+public class Book {
+    String name;
 
-import java.util.Random;
+    public Book(String name){
+        this.name = name;
+    }
+    public String getName() {
+        return name;
+    }
 
-import static threaddz.Library.NAMES;
-
-public class Book{
-        public static String getName() {
-            Random random = new Random();
-            return NAMES[random.nextInt(5)];
-        }
+    public void setName(String name) {
+        this.name = name;
+    }
 }

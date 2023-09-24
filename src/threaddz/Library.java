@@ -17,16 +17,14 @@ public class Library {
         }
     }
 
-    public void putBookBack(String name){
+    public void putBookBack(Book name){
         synchronized (BOOK_MAP) {
-            if(!BOOK_MAP.get(name).equals(REMOVED_BOOKS.get(name))){
-                Book book = REMOVED_BOOKS.remove(name);
-                BOOK_MAP.put(name, book);
+            if(REMOVED_BOOKS.containsKey(name.getName())){
+                Book book = REMOVED_BOOKS.remove(name.getName());
+                BOOK_MAP.put(name.toString(), book);
             }
         }
     }
-
-
 }
 //    Создать класс Библиотека, хранящий  список книг (книга – это строка с названием).
 //    Создать класс Читатель, получающий в конструкторе экземпляр библиотеки.

@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ca469cb6-284e-4d6c-984e-2ef921131bb3" name="Changes" comment="Commit.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dzz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/threaddz/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threaddz/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/threaddz/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threaddz/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/threaddz/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threaddz/Main.java" afterDir="false" />
@@ -57,7 +55,7 @@
       <recent name="AnonClassDz" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.threaddz.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PrimeNumbers.Main" />
       <module name="Test2" />
@@ -85,13 +83,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="Test2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="thread.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.Main" />
       <module name="Test2" />
@@ -105,9 +96,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="threaddz.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threaddz.Main" />
+      <module name="Test2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threaddz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.threaddz.Main" />
         <item itemvalue="Application.thread.Main" />
         <item itemvalue="Application.MapStream" />
         <item itemvalue="Application.Main" />
