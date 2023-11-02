@@ -1,8 +1,11 @@
 package Classwork;
 
 import java.io.File;
+import java.nio.file.FileVisitor;
+import java.nio.file.Files;
 import java.util.Arrays;
 import java.util.concurrent.RecursiveTask;
+import java.util.stream.Stream;
 
 
 public class Action extends RecursiveTask<Integer> {
@@ -24,6 +27,11 @@ public class Action extends RecursiveTask<Integer> {
             action1.fork();
             return action.join() + action1.join();
         }
+    }
+
+    private String monitorFolderButCooler(String path){
+        String[] files;
+        return "";
     }
 
     private Integer monitorFolder(String path) {

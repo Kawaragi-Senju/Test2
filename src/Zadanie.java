@@ -5,10 +5,10 @@ public class Zadanie {
         final int TEN = 10;
         int[] a = {1, 4, 5, 6, 8, 5, 0, 2};
         HashSet<Integer> hashSet = new HashSet<>();
-        for (int i: a){
+        for(int i: a){
             int x = TEN - i;
             if(hashSet.contains(x)){
-                System.out.println(x + "+" +  i + " =" + TEN);
+                System.out.println(x + " + " +  i + " = " + TEN);
                 break;
             }else{
                 hashSet.add(i);
